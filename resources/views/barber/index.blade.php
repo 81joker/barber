@@ -1,40 +1,42 @@
-
-        <!-- Top Bar Start -->
-        @include('include.tobBar')
-
-        <!-- Top Bar End -->
-
-        <!-- Nav Bar Start -->
-        @include('include.nav')
-
-        <!-- Nav Bar End -->
+@include('include.header')
 
 
-        <!-- Hero Start -->
-        <div class="hero">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-12 col-md-6">
-                        <div class="hero-text">
-                            <h1>Salon 4 SEASONS BARBERSHOP</h1>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasell nec pretum mi. Curabi ornare velit non. Aliqua metus tortor auctor quis sem.
-                            </p>
-                            <a class="btn" href="#">Download Now</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 d-none d-md-block">
-                        <div class="hero-image">
-                            <img src="img/hero.png" alt="Hero Image">
-                        </div>
-                    </div>
+<!-- Top Bar Start -->
+@include('include.tobBar')
+
+<!-- Top Bar End -->
+
+<!-- Nav Bar Start -->
+@include('include.nav')
+
+<!-- Nav Bar End -->
+
+
+<!-- Hero Start -->
+<div class="hero">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <div class="hero-text">
+                    <h1>Salon 4 SEASONS BARBERSHOP</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet elit. Phasell nec pretum mi. Curabi ornare velit non. Aliqua metus tortor auctor quis sem.
+                    </p>
+                    <a class="btn" href="#">Download Now</a>
                 </div>
-                <button type="button" class="btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
-                    <span></span>
-                </button>
+            </div>
+            <div class="col-sm-12 col-md-6 d-none d-md-block">
+                <div class="hero-image">
+                    <img src="img/hero.png" alt="Hero Image">
+                </div>
             </div>
         </div>
-        <!-- Hero End -->
+        <button type="button" class="btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
+            <span></span>
+        </button>
+    </div>
+</div>
+<!-- Hero End -->
 
         <!-- Video Modal Start-->
         <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
