@@ -1,16 +1,13 @@
 
 @include('include.header')
 
-<body>
-    <!-- Top Bar Start -->
-    @include('include.tobBar')
+<!-- Top Bar Start -->
+@include('include.tobBar')
+<!-- Top Bar End -->
 
-    <!-- Top Bar End -->
-
-    <!-- Nav Bar Start -->
-    @include('include.nav')
-
-    <!-- Nav Bar End -->
+<!-- Nav Bar Start -->
+@include('include.nav')
+<!-- Nav Bar End -->
 
 
 <!-- Page Header Start -->
@@ -33,6 +30,7 @@
 <!-- Team Start -->
 <div class="team">
     <div class="container">
+
         <div class="section-header text-center">
             <p>Our Barber Team</p>
             <h2>Meet Our Hair Cut Expert Barber</h2>
@@ -86,4 +84,7 @@
     </div>
 </div>
 <!-- Team End -->
+
+
+
 @include('include.footer')

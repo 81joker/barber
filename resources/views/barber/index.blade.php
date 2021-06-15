@@ -1,6 +1,4 @@
-@include('include.header')
 
-    <body>
         <!-- Top Bar Start -->
         @include('include.tobBar')
 

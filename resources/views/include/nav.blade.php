@@ -8,6 +8,7 @@
         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
             <div class="navbar-nav ml-auto">
                 <a href="/" class="nav-item nav-link active">Home</a>
+                <a href="/full-calender" class="nav-item nav-link">Calnder</a>
                 <a href="/about" class="nav-item nav-link">About</a>
                 <a href="/service" class="nav-item nav-link">Service</a>
                 <a href="/price" class="nav-item nav-link">Price</a>

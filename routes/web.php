@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\FullCalenderController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -38,3 +40,10 @@ Route::get('/portfolio', function () {
 Route::get('/contact', function () {
     return view('barber.contact');
 });
+
+
+
+
+Route::get('full-calender', [FullCalenderController::class, 'index']);
+
+Route::post('full-calender/action', [FullCalenderController::class, 'action']);
