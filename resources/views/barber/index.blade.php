@@ -537,8 +537,4 @@
         <!-- Blog End -->
 
 
-
-
-
-
         @include('include.footer')

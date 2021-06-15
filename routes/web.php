@@ -21,3 +21,20 @@ Route::get('/', function () {
 Route::get('/service', function () {
     return view('barber.service');
 });
+
+Route::get('/about', function () {
+    return view('barber.about');
+});
+Route::get('/price', function () {
+    return view('barber.price');
+});
+
+Route::get('/team', function () {
+    return view('barber.team');
+});
+Route::get('/portfolio', function () {
+    return view('barber.portfolio');
+});
+Route::get('/contact', function () {
+    return view('barber.contact');
+});
