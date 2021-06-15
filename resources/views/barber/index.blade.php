@@ -22,7 +22,7 @@
                             <p>
                                 Lorem ipsum dolor sit amet elit. Phasell nec pretum mi. Curabi ornare velit non. Aliqua metus tortor auctor quis sem.
                             </p>
-                            <a class="btn" href="https://htmlcodex.com/barber-shop-template">Download Now</a>
+                            <a class="btn" href="#">Download Now</a>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 d-none d-md-block">
