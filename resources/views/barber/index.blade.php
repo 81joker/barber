@@ -18,7 +18,7 @@
         <div class="row">
             <div class="col-sm-12 col-md-6">
                 <div class="hero-text">
-                    <h1>Salon 4 SEASONS BARBERSHOP</h1>
+                    <h1>Excelence Barber Shop</h1>
                     <p>
                         Lorem ipsum dolor sit amet elit. Phasell nec pretum mi. Curabi ornare velit non. Aliqua metus tortor auctor quis sem.
                     </p>
